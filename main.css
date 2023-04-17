@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./images/coder-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+#profile img {
+    width: 14vw;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#profile h1 {
+    font-size: 3rem;
+    margin: 20px;
+    font-family: 'josefin sans', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-shadow: 3px 3px 10px rgb(0, 217, 255);
+    color: rgb(255, 255, 255);
+}
+
+#search-bar {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0 0;
+}
+
+#search-bar div,
+p {
+    margin: 0 50px 0 50px;
+}
+
+#search-bar div i {
+    font-size: 20px;
+}
+
+#search-bar p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.8rem;
+    font-weight: 900;
+    text-shadow: 3px 3px 10px rgb(1, 255, 242);
+}
+
+#search-bar input {
+    padding: 7px;
+    margin: 7px;
+    width: 25vw;
+    font-size: 1rem;
+    font-family: 'josefin sans', sans-serif;
+}
+
+#friends {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px 500px 0 500px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    border-radius: 10px;
+    margin: 17px;
+    background-color: rgb(44, 43, 43);
+    padding: 10px;
+}
+
+.links img {
+    width: 2vw;
+    height: 4vh;
+    border-radius: 10px;
+}
+
+.links p {
+    font-family: 'josefin sans', sans-serif;
+    font-size: 1.4rem;
+    color: white;
+}
+
+#friends a {
+    text-decoration: none;
+}
